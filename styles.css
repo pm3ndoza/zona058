@@ -80,7 +80,6 @@ section > * { max-width: var(--ancho); margin-inline: auto; }
 .nav { position: sticky; top: 0; z-index: 10; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 1.5rem; padding: .6rem clamp(1.25rem, 5vw, 3rem) calc(.6rem + 5px); background: #0a0a0a; }
 .nav nav { display: flex; gap: 2.2rem; font-weight: 600; font-size: .95rem; }
 .nav > .btn { justify-self: end; }
-.nav__linea { position: absolute; left: 0; right: 0; bottom: 0; height: 5px; }
 .nav nav a { text-decoration: none; color: var(--gris); padding-block: .3rem; border-bottom: 2px solid transparent; transition: color .18s ease, border-color .18s ease; }
 .nav nav a:hover { color: var(--blanco); border-bottom-color: var(--blanco); }
 .nav__logo img { width: clamp(130px, 14vw, 175px); height: auto; border-radius: 0; box-shadow: none; transition: rotate .3s ease; }
